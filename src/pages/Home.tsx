@@ -4,8 +4,8 @@ import Navbar from '../components/Navbar'; // You are importing it here
 
 const Home: React.FC = () => {
   return (
-    <> {/* Use a fragment to wrap Navbar and the main content */}
-      <Navbar /> {/* <-- ADD THIS LINE */}
+    <> 
+      <Navbar /> 
     <div className="min-h-screen pb-20 md:pb-8">
       {/* HERO SECTION */}
       <div className="container mx-auto px-4 py-6 md:py-12">
